@@ -6,3 +6,6 @@
 /mnist/MNIST_data/train-images-idx3-ubyte.gz
 /mnist/MNIST_data/train-labels-idx1-ubyte.gz
 /mnist/mnist_log/
+/mnist/other/logs/
+/mnist/other/test-gan-cnn.py
+/mnist/other/create.npz.py
