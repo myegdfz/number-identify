@@ -43,9 +43,9 @@ with tf.Session() as sess:
     for _ in range(5000):
         batch = data.train.next_batch(50)
         if _ % 100 == 0:
-            train_accuracy = accuracy.eval(feed_dict={x: batch[0], _y: batch[1], keep_prob:1.0})
-            print("step %d, train accuracy=%f"%(_, train_accuracy))
-        sess.run(train_step, feed_dict={x: batch[0], _y: batch[1], keep_prob:0.5})
+            train_accuracy = accuracy.eval(feed_dict={x: batch[0], _y: batch[1], keep_prob: 1.0})
+            print("step %d, train accuracy=%f" % (_, train_accuracy))
+        sess.run(train_step, feed_dict={x: batch[0], _y: batch[1], keep_prob: 0.5})
     print(sess.run(accuracy, feed_dict={x: data.test.images, _y: data.test.labels, keep_prob: 1.0}))
 
     path = saver.save(

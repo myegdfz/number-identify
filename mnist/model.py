@@ -15,10 +15,10 @@ def convolutional(x, keep_pro):
         return tf.nn.conv2d(x, w, [1, 1, 1, 1], padding="SAME")
 
     def max_pool_2x2(x):
-        return tf.nn.max_pool(x, ksize=[1, 2, 2, 1],strides=[1, 2, 2, 1], padding='SAME')
+        return tf.nn.max_pool(x, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
 
     def weight_variable(shape):
-        init = tf.truncated_normal(shape, stddev=0.1)
+        init = tf.compat.v1.truncated_normal(shape, stddev=0.1)
         return tf.Variable(init)
 
     def bias_variable(shape):

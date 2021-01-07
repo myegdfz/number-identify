@@ -88,7 +88,8 @@ class Main {
                 contentType: 'application/json',
                 data: JSON.stringify(inputs),
                 success: (data) => {
-                    for (let i = 0; i < 2; i++) {
+                    console.log(data)
+                    for (let i = 0; i < 1; i++) {
                         var max = 0;
                         var max_index = 0;
                         for (let j = 0; j < 10; j++) {

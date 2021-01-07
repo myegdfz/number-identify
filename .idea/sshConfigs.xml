@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="172.0.105.41" id="3c5e5b83-1876-48e7-9710-a62b28e001d7" port="43326" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig authType="PASSWORD" host="172.0.105.41" id="430581bb-9c71-4fd4-95f6-23f525db0051" port="32466" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig authType="PASSWORD" host="172.0.105.41" id="fd7472e0-cd32-4358-9356-688c92fdaef7" port="52652" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</project>

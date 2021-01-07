@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://root@172.0.105.41:44913/d6295745ef534beab3ce2490bedcd8ab/miniconda3/envs/tf20/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$/mnist/other" remote-root="/d6295745ef534beab3ce2490bedcd8ab/ssc/ganccn-test" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
